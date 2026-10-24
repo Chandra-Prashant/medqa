@@ -11,7 +11,7 @@ TOPICS = [
     '"asthma"[MeSH] AND therapy',
     '"migraine disorders"[MeSH] AND therapy',
     '"drug resistance, bacterial"[MeSH] AND antibiotics',
-    '"depressive disorder, major"[MeSH] AND therapy',
+    '"depressive disorder"[MeSH] AND therapy',
     '"COVID-19"[MeSH] AND symptoms',
     '"heart failure"[MeSH] AND therapy',
     '"renal insufficiency, chronic"[MeSH] AND therapy',

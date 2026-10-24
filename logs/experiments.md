@@ -1,2 +1,3 @@
    2026-10-24 v1: unfiltered queries, 1984 docs, 3018 chunks -> off-topic retrieval (Wolfram syndrome, diabetes insipidus)
    2026-10-24 v2: MeSH + Review/MA/Guideline + 2015-2026 filters, 2683 docs, 5233 chunks -> on-topic top-5 for T2DM query
+   2026-10-24 v3: fixed depression query ("depressive disorder, major"[MeSH] not recognised by PubMed -> QuotedPhraseNotFound; replaced with "depressive disorder"[MeSH]). 2980 docs, 5822 chunks, all 10 topics covered.
