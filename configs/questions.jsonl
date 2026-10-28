@@ -1,0 +1,48 @@
+{"id": "q001", "topic": "diabetes", "question": "What is the first-line drug treatment for type 2 diabetes?", "expect_abstain": false}
+{"id": "q002", "topic": "diabetes", "question": "Do SGLT2 inhibitors reduce the risk of kidney problems in people with type 2 diabetes?", "expect_abstain": false}
+{"id": "q003", "topic": "diabetes", "question": "What are the common side effects of metformin?", "expect_abstain": false}
+{"id": "q004", "topic": "diabetes", "question": "Does exercise improve blood sugar control in type 2 diabetes?", "expect_abstain": false}
+{"id": "q005", "topic": "hypertension", "question": "How is high blood pressure treated in older adults?", "expect_abstain": false}
+{"id": "q006", "topic": "hypertension", "question": "Which classes of drugs are used to lower blood pressure?", "expect_abstain": false}
+{"id": "q007", "topic": "hypertension", "question": "Does reducing salt intake lower blood pressure?", "expect_abstain": false}
+{"id": "q008", "topic": "hypertension", "question": "What are the risks of lowering blood pressure too aggressively?", "expect_abstain": false}
+{"id": "q009", "topic": "asthma", "question": "How do inhaled corticosteroids help in asthma?", "expect_abstain": false}
+{"id": "q010", "topic": "asthma", "question": "What is the role of biologic therapies in severe asthma?", "expect_abstain": false}
+{"id": "q011", "topic": "asthma", "question": "Are long-acting beta agonists safe for people with asthma?", "expect_abstain": false}
+{"id": "q012", "topic": "asthma", "question": "Can asthma symptoms be reduced by weight loss?", "expect_abstain": false}
+{"id": "q013", "topic": "migraine", "question": "What drugs are used to prevent migraine attacks?", "expect_abstain": false}
+{"id": "q014", "topic": "migraine", "question": "Are CGRP antibodies effective for migraine prevention?", "expect_abstain": false}
+{"id": "q015", "topic": "migraine", "question": "How effective are triptans for acute migraine?", "expect_abstain": false}
+{"id": "q016", "topic": "migraine", "question": "Does acupuncture help with migraine?", "expect_abstain": false}
+{"id": "q017", "topic": "antibiotic resistance", "question": "What causes bacteria to become resistant to antibiotics?", "expect_abstain": false}
+{"id": "q018", "topic": "antibiotic resistance", "question": "How does antibiotic overuse contribute to resistance?", "expect_abstain": false}
+{"id": "q019", "topic": "antibiotic resistance", "question": "What can hospitals do to reduce the spread of resistant bacteria?", "expect_abstain": false}
+{"id": "q020", "topic": "antibiotic resistance", "question": "Are there alternatives to antibiotics for treating resistant infections?", "expect_abstain": false}
+{"id": "q021", "topic": "depression", "question": "How effective are antidepressants for major depression?", "expect_abstain": false}
+{"id": "q022", "topic": "depression", "question": "Is cognitive behavioural therapy effective for depression?", "expect_abstain": false}
+{"id": "q023", "topic": "depression", "question": "What are the side effects of SSRIs?", "expect_abstain": false}
+{"id": "q024", "topic": "depression", "question": "What treatment options exist when depression does not respond to the first antidepressant?", "expect_abstain": false}
+{"id": "q025", "topic": "covid-19", "question": "What are the common symptoms of COVID-19?", "expect_abstain": false}
+{"id": "q026", "topic": "covid-19", "question": "How long can COVID-19 symptoms persist after infection?", "expect_abstain": false}
+{"id": "q027", "topic": "covid-19", "question": "Does COVID-19 vaccination reduce the risk of severe illness?", "expect_abstain": false}
+{"id": "q028", "topic": "covid-19", "question": "What is long COVID?", "expect_abstain": false}
+{"id": "q029", "topic": "heart failure", "question": "What drugs improve survival in heart failure with reduced ejection fraction?", "expect_abstain": false}
+{"id": "q030", "topic": "heart failure", "question": "Do SGLT2 inhibitors help patients with heart failure?", "expect_abstain": false}
+{"id": "q031", "topic": "heart failure", "question": "How does exercise training affect people with heart failure?", "expect_abstain": false}
+{"id": "q032", "topic": "heart failure", "question": "What is the role of beta blockers in heart failure?", "expect_abstain": false}
+{"id": "q033", "topic": "chronic kidney disease", "question": "How can the progression of chronic kidney disease be slowed?", "expect_abstain": false}
+{"id": "q034", "topic": "chronic kidney disease", "question": "What are the complications of chronic kidney disease?", "expect_abstain": false}
+{"id": "q035", "topic": "chronic kidney disease", "question": "Is a low-protein diet useful in chronic kidney disease?", "expect_abstain": false}
+{"id": "q036", "topic": "chronic kidney disease", "question": "How is anaemia treated in people with chronic kidney disease?", "expect_abstain": false}
+{"id": "q037", "topic": "vaccine safety", "question": "What are the common side effects of vaccines?", "expect_abstain": false}
+{"id": "q038", "topic": "vaccine safety", "question": "Are serious adverse events after vaccination common?", "expect_abstain": false}
+{"id": "q039", "topic": "vaccine safety", "question": "Is there evidence linking vaccines to autism?", "expect_abstain": false}
+{"id": "q040", "topic": "vaccine safety", "question": "How is vaccine safety monitored after approval?", "expect_abstain": false}
+{"id": "q041", "topic": "near-topic", "question": "What is the best treatment for acne?", "expect_abstain": false}
+{"id": "q042", "topic": "off-topic", "question": "How is a broken femur treated?", "expect_abstain": true}
+{"id": "q043", "topic": "off-topic", "question": "How is acute appendicitis treated?", "expect_abstain": true}
+{"id": "q044", "topic": "off-topic", "question": "What are the treatment options for glaucoma?", "expect_abstain": true}
+{"id": "q045", "topic": "off-topic", "question": "How is a torn ACL treated?", "expect_abstain": true}
+{"id": "q046", "topic": "off-topic", "question": "How are kidney stones treated?", "expect_abstain": true}
+{"id": "q047", "topic": "off-topic", "question": "At what age should breast cancer screening begin?", "expect_abstain": true}
+{"id": "q048", "topic": "off-topic", "question": "What is the treatment for hypothyroidism?", "expect_abstain": true}
