@@ -1,0 +1,7 @@
+agreement: 12/40
+  verifier=CONTRADICTED  human=INSUFFICIENT  5
+  verifier=CONTRADICTED  human=SUPPORTED     5
+  verifier=INSUFFICIENT  human=INSUFFICIENT  4
+  verifier=INSUFFICIENT  human=SUPPORTED     16
+  verifier=SUPPORTED     human=INSUFFICIENT  2
+  verifier=SUPPORTED     human=SUPPORTED     8

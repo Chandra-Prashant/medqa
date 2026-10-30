@@ -1,8 +1,11 @@
-import json, re, sys
+import json, os, re, sys
 import numpy as np
 from sentence_transformers import CrossEncoder
 
-nli = CrossEncoder("cross-encoder/nli-deberta-v3-base", max_length=512)
+NLI_MODEL = os.getenv("NLI_MODEL", "cross-encoder/nli-deberta-v3-base")
+TAG = os.getenv("NLI_TAG", "")
+nli = CrossEncoder(NLI_MODEL, max_length=512)
+
 _id2 = {int(k): v.lower() for k, v in nli.model.config.id2label.items()}
 I_CON = [k for k, v in _id2.items() if v.startswith("contra")][0]
 I_ENT = [k for k, v in _id2.items() if v.startswith("entail")][0]
@@ -30,6 +33,9 @@ def softmax(x):
     return e / e.sum(axis=1, keepdims=True)
 
 def verify(claim, evidence):
+    claim = claim.strip()
+    if claim and claim[-1] not in ".!?":
+        claim += "."          # labels flipped on a missing full stop, so normalise
     wins = [(ci, w) for ci, e in enumerate(evidence, 1) for w in windows(e["text"])]
     probs = softmax(np.asarray(nli.predict([(w, claim) for _, w in wins], batch_size=32)))
     ent, con = probs[:, I_ENT], probs[:, I_CON]
@@ -52,7 +58,7 @@ if __name__ == "__main__":
     counts = {"SUPPORTED": 0, "CONTRADICTED": 0, "INSUFFICIENT": 0}
     cite_ok = cite_n = 0
     recs = [json.loads(l) for l in open(f"results/claims_{key}.jsonl")][:limit]
-    with open(f"results/verified_{key}.jsonl", "w") as out:
+    with open(f"results/verified_{key}{TAG}.jsonl", "w") as out:
         for rec in recs:
             ev = answers[rec["id"]]["evidence"]
             if not ev:
